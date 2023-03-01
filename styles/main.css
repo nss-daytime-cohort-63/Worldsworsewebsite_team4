@@ -1,21 +1,27 @@
 header {
-    background-color: greenyellow;
-    padding: 2em;
+  background-color: greenyellow;
+  padding: 2em;
 }
 
 h1 {
-    color: rgb(111, 233, 217);
+  color: rgb(111, 233, 217);
 }
 
-body { 
-    background-image:url('coaster.gif'); background-repeat:repeat; 
+body {
+  background-image: url('coaster.gif');
+  background-repeat: repeat;
 }
 
-.characters, header, .foods, .price, .attractions {
-    text-align: center;
+.characters,
+header,
+.foods,
+.price,
+.attractions {
+  text-align: center;
 }
 
 .welcome {
+<<<<<<< HEAD
     color: rgb(250, 198, 76);
 }
 
@@ -62,3 +68,13 @@ body {
 .testimonials-song img {
     width: 500px;
 }
+=======
+  color: rgb(250, 198, 76);
+}
+
+.foods {
+  height: 450px;
+  background-color: #cccccc;
+  background-image: linear-gradient(red, yellow, red);
+}
+>>>>>>> 043b13ccc10d1fd1cfb25452792ab11e5cddfabc
