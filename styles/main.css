@@ -9,8 +9,7 @@ h1 {
 }
 
 h2 {
-    text-align
-  color: rgb(111, 233, 217);
+    color: rgb(111, 233, 217);
 }
 
 body {
@@ -163,8 +162,9 @@ header,
     color:black;
     font-weight: heavy;
     font-size: xx-large;
+    color: rgb(250, 198, 76);
 }
-  color: rgb(250, 198, 76);
+  
 
 
 .foods {
