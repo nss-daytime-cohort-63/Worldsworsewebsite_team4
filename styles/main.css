@@ -18,3 +18,47 @@ body {
 .welcome {
     color: rgb(250, 198, 76);
 }
+
+.Testimonials {
+    color: rgb(0,255,255);
+}
+
+.pepboys {
+    color: rgb(127,255,0);
+}
+
+.pepboys2 {
+    color: rgb(255,248,220);
+}
+
+.pepboys3{
+    color: rgb(153,50,204);
+}
+
+.pepboys4{
+    color: rgb(255,20,147);
+}
+
+.testimonial {
+    color: (255,0,255);
+}
+
+.testimonial2 {
+    color: rgb(240,128,128);
+}
+
+.testimonial3 {
+    color: rgb(25,25,112);
+}
+
+.testimonial4 {
+    color: rgb(255,69,0);
+}
+
+.testimonials-song {
+    color: rgb(75,0,130);
+}
+
+.testimonials-song img {
+    width: 500px;
+}
