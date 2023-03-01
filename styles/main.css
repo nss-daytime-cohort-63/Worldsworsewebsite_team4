@@ -1,4 +1,117 @@
 header {
+  background-color: greenyellow;
+  padding: 2em;
+}
+
+h1 {
+  color: rgb(111, 233, 217);
+}
+
+body {
+  background-image: url('coaster.gif');
+  background-repeat: repeat;
+}
+
+.characters,
+header,
+.foods,
+.price,
+.attractions {
+  text-align: center;
+}
+
+.welcome {
+    color: rgb(250, 198, 76);
+}
+
+
+header {
+  background-color: greenyellow;
+  padding: 2em;
+}
+
+h1 {
+  color: rgb(111, 233, 217);
+}
+
+body {
+  background-image: url('coaster.gif');
+  background-repeat: repeat;
+}
+
+.characters,
+header,
+.foods,
+.price,
+.attractions {
+  text-align: center;
+}
+
+.welcome {
+    color: rgb(250, 198, 76);
+}
+
+.Testimonials {
+    color: rgb(0,255,255);
+}
+
+.pepboys {
+    color: rgb(127,255,0);
+}
+
+.pepboys2 {
+    color: rgb(255,248,220);
+}
+
+.pepboys3{
+    color: rgb(153,50,204);
+}
+
+.pepboys4{
+    color: rgb(255,20,147);
+}
+
+.testimonial {
+    color: (255,0,255);
+}
+
+.testimonial2 {
+    color: rgb(240,128,128);
+    font-size: large;
+}
+
+.testimonial3 {
+    color: rgb(25,25,112);
+    font-size: x-large;
+}
+
+.testimonial4 {
+    color: rgb(255,69,0);
+}
+
+.testimonials-song {
+    color: rgb(75,0,130);
+    width: 500px;
+}
+
+.testimonials-song img {
+    width: 500px 1000px;
+}
+
+.song-header {
+    color:black;
+    font-weight: heavy;
+    font-size: xx-large;
+    color: rgb(250, 198, 76);
+}
+
+
+.foods {
+  height: 450px;
+  background-color: #cccccc;
+  background-image: linear-gradient(red, yellow, red);
+}
+header {
     background-color: greenyellow;
     padding: 2em;
     color: rgb(111, 233, 217);
