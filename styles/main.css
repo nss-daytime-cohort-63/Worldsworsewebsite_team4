@@ -1,0 +1,20 @@
+header {
+    background-color: greenyellow;
+    padding: 2em;
+}
+
+h1 {
+    color: rgb(111, 233, 217);
+}
+
+body { 
+    background-image:url('coaster.gif'); background-repeat:repeat; 
+}
+
+.characters, header, .foods, .price, .attractions {
+    text-align: center;
+}
+
+.welcome {
+    color: rgb(250, 198, 76);
+}
