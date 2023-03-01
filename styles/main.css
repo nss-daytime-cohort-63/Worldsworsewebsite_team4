@@ -1,20 +1,96 @@
 header {
     background-color: greenyellow;
     padding: 2em;
-}
-
-h1 {
     color: rgb(111, 233, 217);
-}
-
-body { 
-    background-image:url('coaster.gif'); background-repeat:repeat; 
-}
-
-.characters, header, .foods, .price, .attractions {
     text-align: center;
+    font-family: Papryus, fantasy;
+    border: solid 10px rgb(111, 233, 217);
 }
 
 .welcome {
     color: rgb(250, 198, 76);
+    backdrop-filter: sepia(50%);
+    width: auto;
+}
+
+.character_h2 {
+        text-align: center;
+        color: greenyellow;
+        
+}
+
+body {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODY4MzdhMmQ3Yzg1YTY3YTE5NzYxYWUxNDgxZGE3MzIyOTJhNTQzMyZjdD1n/6Gp9z8MI9c8xO/giphy.gif")
+}
+
+.attractions_h2 {
+    color: rgb(111, 233, 217);
+    text-align: center;
+}
+
+.attractions {
+    background-color: rgba(255, 0, 0, 0.255);
+    backdrop-filter: blur(10px);
+    margin: 30%;
+    padding: 0.5px;
+}
+.attractions:hover {
+    background-color: rgba(0, 72, 255, 0.303);
+    backdrop-filter: blur(50px);
+    margin: 30%;
+    padding: 0.5px;
+}
+
+.performers {
+    text-align: center;
+    color: rgb(250, 198, 76);
+}
+
+.rides {
+    text-align: center;
+    color:  rgb(250, 198, 76);
+}
+
+.coasters {
+    text-align: center;
+    color: white;
+}
+
+.biggest {
+    color:  rgb(250, 198, 76);
+    text-align: center;
+    background-color: red;
+}
+
+.finaltax {
+    font-family: Papryus, fantasy;
+    color: red;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.rep_titles {
+    color: rgb(111, 233, 217);
+    font-size: 20pt;
+}
+
+.description {
+    color: white;
+    background-color: greenyellow;
+}
+
+.characters {
+    backdrop-filter: sepia(50%);
+    margin: 30%;
+    padding: 0.5px;
+}
+
+.prize {
+    text-align: center;
+    font-size: 25pt;
+}
+
+.actual {
+    color: red;
+    font-family: Papryus, fantasy;
 }
