@@ -1,20 +1,31 @@
 header {
-    background-color: greenyellow;
-    padding: 2em;
+  background-color: greenyellow;
+  padding: 2em;
 }
 
 h1 {
-    color: rgb(111, 233, 217);
+  color: rgb(111, 233, 217);
 }
 
-body { 
-    background-image:url('coaster.gif'); background-repeat:repeat; 
+body {
+  background-image: url('coaster.gif');
+  background-repeat: repeat;
 }
 
-.characters, header, .foods, .price, .attractions {
-    text-align: center;
+.characters,
+header,
+.foods,
+.price,
+.attractions {
+  text-align: center;
 }
 
 .welcome {
-    color: rgb(250, 198, 76);
+  color: rgb(250, 198, 76);
+}
+
+.foods {
+  height: 450px;
+  background-color: #cccccc;
+  background-image: linear-gradient(red, yellow, red);
 }
