@@ -1,32 +1,158 @@
+.Testimonials {
+    color: rgb(0,255,255);
+}
+
+.pepboys {
+    color: rgb(127,255,0);
+}
+
+.pepboys2 {
+    color: rgb(255,248,220);
+}
+
+.pepboys3{
+    color: rgb(153,50,204);
+}
+
+.pepboys4{
+    color: rgb(255,20,147);
+}
+
+.testimonial {
+    color: (255,0,255);
+}
+
+.testimonial2 {
+    color: rgb(240,128,128);
+    font-size: large;
+}
+
+.testimonial3 {
+    color: rgb(25,25,112);
+    font-size: x-large;
+}
+
+.testimonial4 {
+    color: rgb(255,69,0);
+}
+
+.testimonials-song {
+    color: rgb(75,0,130);
+    width: 500px;
+}
+
+.testimonials-song img {
+    width: 500px 1000px;
+}
+
+.song-header {
+    color:black;
+    font-weight: heavy;
+    font-size: xx-large;
+    color: rgb(250, 198, 76);
+}
+
+
+.foods {
+  height: 450px;
+  background-color: #cccccc;
+  background-image: linear-gradient(red, yellow, red);
+}
 header {
-  background-color: greenyellow;
-  padding: 2em;
-}
-
-h1 {
+    background-color: greenyellow;
+    padding: 2em;
     color: rgb(111, 233, 217);
-    font-size: 50px;
-}
-
-h2 {
-    color: rgb(111, 233, 217);
-}
-
-body {
-  background-image: url('coaster.gif');
-  background-repeat: repeat;
-}
-
-.characters,
-header,
-.foods,
-.price,
-.attractions {
-  text-align: center;
+    text-align: center;
+    font-family: Papryus, fantasy;
+    border: solid 10px rgb(111, 233, 217);
 }
 
 .welcome {
     color: rgb(250, 198, 76);
+    backdrop-filter: sepia(50%);
+    width: auto;
+}
+
+.character_h2 {
+        text-align: center;
+        color: greenyellow;
+        
+}
+
+body {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODY4MzdhMmQ3Yzg1YTY3YTE5NzYxYWUxNDgxZGE3MzIyOTJhNTQzMyZjdD1n/6Gp9z8MI9c8xO/giphy.gif")
+}
+
+.attractions_h2 {
+    color: rgb(111, 233, 217);
+    text-align: center;
+}
+
+.attractions {
+    background-color: rgba(255, 0, 0, 0.255);
+    backdrop-filter: blur(10px);
+    margin: 30%;
+    padding: 0.5px;
+}
+.attractions:hover {
+    background-color: rgba(0, 72, 255, 0.303);
+    backdrop-filter: blur(50px);
+    margin: 30%;
+    padding: 0.5px;
+}
+
+.performers {
+    text-align: center;
+    color: rgb(250, 198, 76);
+}
+
+.rides {
+    text-align: center;
+    color:  rgb(250, 198, 76);
+}
+
+.coasters {
+    text-align: center;
+    color: white;
+}
+
+.biggest {
+    color:  rgb(250, 198, 76);
+    text-align: center;
+    background-color: red;
+}
+
+.finaltax {
+    font-family: Papryus, fantasy;
+    color: red;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.rep_titles {
+    color: rgb(111, 233, 217);
+    font-size: 20pt;
+}
+
+.description {
+    color: white;
+    background-color: greenyellow;
+}
+
+.characters {
+    backdrop-filter: sepia(50%);
+    margin: 30%;
+    padding: 0.5px;
+}
+
+.prize {
+    text-align: center;
+    font-size: 25pt;
+}
+
+.actual {
+    color: red;
+    font-family: Papryus, fantasy;
 }
 
 .container {
@@ -83,33 +209,6 @@ table {
     color: #ff4304;
     justify-content: center;
   }
-
-
-header {
-  background-color: greenyellow;
-  padding: 2em;
-}
-
-h1 {
-  color: rgb(111, 233, 217);
-}
-
-body {
-  background-image: url('coaster.gif');
-  background-repeat: repeat;
-}
-
-.characters,
-header,
-.foods,
-.price,
-.attractions {
-  text-align: center;
-}
-
-.welcome {
-    color: rgb(250, 198, 76);
-}
 
 .Testimonials {
     color: rgb(0,255,255);
