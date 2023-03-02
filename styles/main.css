@@ -4,7 +4,12 @@ header {
 }
 
 h1 {
-  color: rgb(111, 233, 217);
+    color: rgb(111, 233, 217);
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(111, 233, 217);
 }
 
 body {
@@ -23,6 +28,61 @@ header,
 .welcome {
     color: rgb(250, 198, 76);
 }
+
+.container {
+    background-color: rgb(255, 36, 175);
+    border:5em dotted yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 1em auto;
+    padding: .3em .6em;
+    
+  }
+
+
+.price-head {
+    font-weight: 700;
+    font-size: x-large;
+    width: 20%;
+    margin: .7em 0 1em 0;
+}
+
+.marquee {
+font-family: 'Times New Roman', Times, serif;
+color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #5acb04;
+    font-size: 24px;
+    color: blue;
+  }
+  tr:nth-child(odd) {
+    background-color: #ff4304;
+    font-size: 28px;
+    color: rgb(26, 174, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .form {
+    display:flex;
+    background-color: rgb(132, 0, 255);
+    font-family: fantasy;
+    font-size: 28px;
+    color: #ff4304;
+    justify-content: center;
+  }
 
 
 header {
@@ -102,6 +162,7 @@ header,
     color:black;
     font-weight: heavy;
     font-size: xx-large;
+    color: rgb(250, 198, 76);
 }
   
 
