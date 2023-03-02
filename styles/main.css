@@ -1,9 +1,3 @@
-body {
-  background-image: url('coaster.gif');
-  background-repeat: repeat;
-}
-
-
 .Testimonials {
     color: rgb(0,255,255);
 }
@@ -159,4 +153,121 @@ body {
 .actual {
     color: red;
     font-family: Papryus, fantasy;
+}
+
+.container {
+    background-color: rgb(255, 36, 175);
+    border:5em dotted yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 1em auto;
+    padding: .3em .6em;
+    
+  }
+
+
+.price-head {
+    font-weight: 700;
+    font-size: x-large;
+    width: 20%;
+    margin: .7em 0 1em 0;
+}
+
+.marquee {
+font-family: 'Times New Roman', Times, serif;
+color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #5acb04;
+    font-size: 24px;
+    color: blue;
+  }
+  tr:nth-child(odd) {
+    background-color: #ff4304;
+    font-size: 28px;
+    color: rgb(26, 174, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .form {
+    display:flex;
+    background-color: rgb(132, 0, 255);
+    font-family: fantasy;
+    font-size: 28px;
+    color: #ff4304;
+    justify-content: center;
+  }
+
+.Testimonials {
+    color: rgb(0,255,255);
+}
+
+.pepboys {
+    color: rgb(127,255,0);
+}
+
+.pepboys2 {
+    color: rgb(255,248,220);
+}
+
+.pepboys3{
+    color: rgb(153,50,204);
+}
+
+.pepboys4{
+    color: rgb(255,20,147);
+}
+
+.testimonial {
+    color: (255,0,255);
+}
+
+.testimonial2 {
+    color: rgb(240,128,128);
+    font-size: large;
+}
+
+.testimonial3 {
+    color: rgb(25,25,112);
+    font-size: x-large;
+}
+
+.testimonial4 {
+    color: rgb(255,69,0);
+}
+
+.testimonials-song {
+    color: rgb(75,0,130);
+    width: 500px;
+}
+
+.testimonials-song img {
+    width: 500px 1000px;
+}
+
+.song-header {
+    color:black;
+    font-weight: heavy;
+    font-size: xx-large;
+    color: rgb(250, 198, 76);
+}
+  
+
+
+.foods {
+  height: 450px;
+  background-color: #cccccc;
+  background-image: linear-gradient(red, yellow, red);
 }
